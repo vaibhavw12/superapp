@@ -1,0 +1,74 @@
+.imgRegister{
+    height: 100vh;
+    width: 50vw;
+}
+.main{
+    display: flex;
+}
+.textOnImg{
+    color: whitesmoke;
+    position: absolute;
+    bottom: 10vh;
+    font-size: 45px;
+    padding: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.form{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.box{
+    width: 330px;
+    height: 40px;
+    top: 312px;
+    left: 1047px;
+    border-radius: 3.82px;
+    background: rgba(41, 41, 41, 1);
+    border:rgba(41, 41, 41, 1);
+    padding-left: 20px;
+    color: aqua;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.formText{
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgba(124, 124, 124, 1);
+}
+.links{
+    color: rgba(114, 219, 115, 1);
+}
+.appName{
+    color: rgba(114, 219, 115, 1);
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+.formTitle{
+    color: white;
+}
+.submitBtn{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: rgba(114, 219, 115, 1);
+    background-color: rgba(114, 219, 115, 1);
+    color: white;
+    font-size: 18px;
+}
+.submitBtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.error{
+    color: rgba(255, 0, 0, 1);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
