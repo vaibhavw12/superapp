@@ -1,0 +1,26 @@
+.comp{
+    width: 55vw;
+    height: 100vh;
+    background-color: black;
+}
+.category{
+    width: 45vw;
+    height: 90vh;
+    /* background-color: lightblue; */
+    margin-right: 5vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+    gap: 25px 0px;
+}
+.cat{
+    background-color: bisque;
+    width: 175px;
+    height: 150px;
+    border-radius: 20px;
+}
+#action{
+    background-color: rgba(255, 82, 9, 1);
+}

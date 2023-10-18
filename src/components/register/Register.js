@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import registerImage from "./image 13.png";
+import {useNavigate} from "react-router-dom"
 import './Register.css';
 
 export const Register = () => {
   
+  const navigate = useNavigate()
   let [check, setCheck] = useState(false) 
   let [values,setValues] = useState({
     name : '',
@@ -40,7 +42,7 @@ export const Register = () => {
       mobile: '',
     });
 
-    
+    navigate('/category')
   }
 
   function validation(){
