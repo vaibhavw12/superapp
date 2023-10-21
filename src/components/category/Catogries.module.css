@@ -5,7 +5,7 @@
 }
 .category{
     width: 45vw;
-    height: 90vh;
+    height: 96vh;
     /* background-color: lightblue; */
     margin-right: 5vw;
     margin-left: 5vw;
@@ -16,11 +16,70 @@
     gap: 25px 0px;
 }
 .cat{
-    background-color: bisque;
-    width: 175px;
-    height: 150px;
+    color: white;
+    width: 180px;
+    height: 160px;
     border-radius: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    transition: color .3s ease-in-out, box-shadow .4s ease-in-out;
+}
+.cat:hover{
+    opacity: 0.9;
+    box-shadow: inset 10px 35px 0 0 #902bcf;
+    cursor: pointer;
+    transform: perspective(900px) translateY(2%) rotateX(5deg) translateZ(0);
+    /* border: 4px solid rgba(17, 184, 0, 1); */
 }
 #action{
     background-color: rgba(255, 82, 9, 1);
+}
+#drama{
+    background: rgba(215, 164, 255, 1);
+}
+#romance{
+    background: rgba(20, 138, 8, 1);
+}
+#thriller{
+    background: rgba(132, 194, 255, 1);
+}
+#western{
+    background: rgba(144, 37, 0, 1);
+}
+#horror{
+    background: rgba(115, 88, 255, 1);
+}
+#fantasy{
+    background: rgba(255, 74, 222, 1);
+}
+#music{
+    background: rgba(230, 30, 50, 1);
+}
+#fiction{
+    background: rgba(108, 208, 97, 1);
+}
+.category img{
+    height: 100px;
+    width: 160px;
+    padding-left: 10px;
+    padding-top: 22px;
+}
+.cat span {
+    letter-spacing: 1px;
+    padding: 20px;
+}
+.nextButton{
+    position: absolute;
+    left: 85.5vw;
+    bottom: 2vh;
+    width: 120px;
+    height: 40px;
+    border-radius: 38.86px;
+    background: rgba(20, 138, 8, 1);
+    border: solid 1px rgba(20, 138, 8, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.nextButton:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }

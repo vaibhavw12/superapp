@@ -4,7 +4,8 @@
     background-color: black;
 }
 .content{
-    padding: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 .appName{
     color: rgba(114, 219, 115, 1);
@@ -16,4 +17,59 @@
     color: rgba(255, 255, 255, 1);
     font-size: 40px;
     font-weight: 700;
+}
+.userChoice{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    width: 20vw;
+    margin-left: 1vw;
+}
+.catCh{
+    width: 110px;
+    height: 35px;
+    background-color: rgba(20, 138, 8, 1);
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.btnClose{
+    background-color:rgb(8, 23, 138);
+    border: none;
+    color: rgba(8, 92, 0, 1);
+    border-radius: 100px;
+    transition: color .3s ease-in-out, box-shadow .4s ease-in-out;
+}
+.btnClose:hover{
+    transform: perspective(900px) translateY(10%) rotateX(5deg) translateZ(0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#action{
+    display: none;
+}
+#drama{
+    display: none;
+}
+#romance{
+    display: none;
+}
+#thriller{
+    display: none;
+}
+#western{
+    display: none;
+}
+#horror{
+    display: none;
+}
+#fantasy{
+    display: none;
+}
+#music{
+    display: none;
+}
+#fiction{
+    display: none;
 }
