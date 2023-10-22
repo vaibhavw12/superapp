@@ -1,0 +1,6 @@
+.weatherCard{
+    background: rgba(16, 23, 68, 1);
+    margin: 30px 0px 0px 100px;
+    height: 30vh;
+    border-radius: 20px;
+}

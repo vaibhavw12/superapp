@@ -25,8 +25,9 @@ export const Catogries = () => {
   function next (){
     if(set.size >= 3){
       let arr = Array.from(set)
-      localStorage.setItem('items',arr)
-      navigate('/content')
+      let str = JSON.stringify(arr)
+      localStorage.setItem('items',str)
+      navigate('/home')
     } 
   }
 
