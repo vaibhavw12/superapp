@@ -1,0 +1,8 @@
+.stopWatchCard{
+    background: rgba(30, 35, 67, 1);
+    width: 64.4vw;
+    height: 24vh;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+}

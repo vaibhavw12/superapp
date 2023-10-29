@@ -1,0 +1,12 @@
+.timeBox{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    background-color: rgba(255, 74, 222, 1);
+    border-top-left-radius: 20px; /* Adjust the value to control the curve */
+    border-top-right-radius: 20px; /* Adjust the value to control the curve */
+    height: 6vh;
+}

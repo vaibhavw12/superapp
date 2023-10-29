@@ -1,31 +1,33 @@
 .profileCard{
-    margin: 40px 0px 0px 100px;
+    margin: 30px 0px 0px 30px;
     background: rgba(87, 70, 234, 1);
-    width: 50vw;
-    height: 55vh;
+    width: 40vw;
+    height: 35vh;
     border-radius: 20px;
     display: flex;
 }
 .profileImg{
-    margin: 40px;
-    height: 45vh;
-    width: 11vw;
+    margin: 20px;
+    width: 10vw;
+    height: 30vh;
 }
 .profileInfo{
-    margin: 40px 0px 0px 0px;
-    font-size: 24px;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
 }
 .selectedItems{
-    margin-top: 30px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 20px;
-    max-height: 100px; /* Set a maximum height for the container */
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: fit-content;
+    max-height: 80px; /* Set a maximum height for the container */
     overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
 }
 .selectedItem{
-    width: 130px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     background: rgba(159, 148, 255, 1);
     border-radius: 20px;
     padding-left: 20px;

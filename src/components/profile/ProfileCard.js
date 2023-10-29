@@ -12,7 +12,6 @@ export const ProfileCard = () => {
     <div className={styles.profileCard}>
         <img className={styles.profileImg} src={profileImage} alt='profile'></img>
         <div className={styles.profileInfo}>
-            <p>
                 {name} <br></br>
                 {email} <br></br>
                 <span style={{fontSize:'40px', fontWeight:'600'}}>{userName}</span>
@@ -21,7 +20,6 @@ export const ProfileCard = () => {
                 <div className={styles.selectedItem} key={index}>{element}</div>
                 ))}
                 </div>
-            </p>
         </div>
     </div>
   )
