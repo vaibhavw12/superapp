@@ -8,9 +8,9 @@ import { StopWatch } from '../components/stopwatch/StopWatch';
 
 export const HomePage = () => {
   return (
+    <>
     <div className={styles.home}>
       <div>
-      
       <div className={styles.leftSide}>
         <div>
         <ProfileCard></ProfileCard>
@@ -24,5 +24,7 @@ export const HomePage = () => {
       </div>
         <NewsCard></NewsCard>
     </div>
+    <button className={styles.browse}>Browse</button>
+    </>
   )
 }

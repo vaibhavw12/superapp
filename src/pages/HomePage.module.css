@@ -8,3 +8,18 @@
 .leftSide{
     display: flex;
 }
+.browse{
+    position: absolute;
+    bottom: 3vh;
+    left: 88vw;
+    width: 135px;
+    height: 40px;
+    background: rgba(20, 138, 8, 1);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+}
+.browse:hover{
+    opacity: 0.8;
+}
