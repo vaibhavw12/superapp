@@ -5,8 +5,13 @@ import { NewsCard } from '../components/news/NewsCard';
 import styles from './HomePage.module.css';
 import { NotesCard } from '../components/notes/NotesCard';
 import { StopWatch } from '../components/stopwatch/StopWatch';
+import { useNavigate } from 'react-router-dom';
 
 export const HomePage = () => {
+  const navigate = useNavigate()
+  const next = (e) =>{
+    navigate('/display')
+  }
   return (
     <>
     <div className={styles.home}>
@@ -24,7 +29,7 @@ export const HomePage = () => {
       </div>
         <NewsCard></NewsCard>
     </div>
-    <button className={styles.browse}>Browse</button>
+    <button onClick={next} className={styles.browse}>Browse</button>
     </>
   )
 }
